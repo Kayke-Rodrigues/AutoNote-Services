@@ -17,6 +17,7 @@ visa modernizar e otimizar o sistema do SENAI, proporcionando uma ferramenta mai
 e amigável para professores. O cronograma estabelecido é flexível, sujeito a ajustes conforme a
 evolução do desenvolvimento. Ao final, espera-se um sistema robusto, seguro e de fácil
 utilização para todos os envolvidos.
+
 3. Objetivos do Projeto
 
 ● Desenvolver uma extensão no site principal do SENAI, que permita os docentes
@@ -24,11 +25,16 @@ automatizarem as notas dos alunos.
 
 ● Implementar uma forma de copiar dados por meio de uma interface, que possa
 automatizar o trabalho do professor.
+
 ● Otimizar o tempo gasto em trabalho manual de inserção de notas.
+
 ● Assegurar que os professores não terão dificuldades no entendimento da
 extensão.
+
 ● Estabelecer um sistema que gere relatórios e que faça Backup dos dados.
+
 3.Análise de Riscos
+
 ● Falhas técnicas na integração do software: Devido o software planejado ser uma
 extensão já do site web do SENAI (https://www.sp.senai.br/), pode haver
 problemas de comunicação entre as linguagens de programação.
