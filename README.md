@@ -148,7 +148,7 @@ Para desenvolvimento,teste e gerenciamento de projeto
 
 Para testes e treinamento do aplicativo em condições reais
 
-<h1>7. Custos</h1>
+<h1>6. Custos</h1>
     
 Pessoal:
 
@@ -181,7 +181,7 @@ inicial).
 ● Custo total: R$50/hora/pessoa * 6 pessoas * 3 dias/semana * 6 horas/dia
 * 4 semanas = R$108.000,00
   
-<h1>8.Tecnologia:</h1>
+Tecnologia:
 
 Ambiente de Desenvolvimento Integrado (IDE):
 
@@ -227,7 +227,7 @@ Total Geral:
 
 Custo Total do Projeto: $558,000
 
-<h1>9. Documentação</h1>
+<h1>7. Documentação</h1>
    
 Requisitos Funcionais:
 
