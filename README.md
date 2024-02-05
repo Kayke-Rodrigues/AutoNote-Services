@@ -71,7 +71,7 @@ online. Precisa ser mais debatido no momento.
 
 <h1>4. Cronograma</h1>
    
-Janeiro/2024: Planejamento e Análise
+**Janeiro/2024: Planejamento e Análise**
 
 ● Formação das equipes
 
