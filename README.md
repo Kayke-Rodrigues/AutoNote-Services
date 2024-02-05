@@ -12,7 +12,11 @@ Problema: Propagar conteúdo de aprendizagem.
 Área: Eletroeletrônica
 </p>
 
-[Documentação - V1 ApexCode.pdf](https://github.com/adancard/TCC-SENAI/files/14166409/Documentacao.-.V1.ApexCode.pdf)
+<p - align="center">
+  <a href="[Documentação - V1 ApexCode.pdf](https://github.com/adancard/TCC-SENAI/files/14166409/Documentacao.-.V1.ApexCode.pdf)">Documentação ApexCode</a>
+</p>
+
+
 
 
 
