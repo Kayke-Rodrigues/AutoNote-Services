@@ -42,7 +42,7 @@ extensão.
 
 ● Estabelecer um sistema que gere relatórios e que faça Backup dos dados.
 
-3.Análise de Riscos
+<h1>3.Análise de Riscos</h1>
 
 ● Falhas técnicas na integração do software: Devido o software planejado ser uma
 extensão já do site web do SENAI (https://www.sp.senai.br/), pode haver
@@ -66,7 +66,7 @@ treinamento para o funcionamento da automatização.
 questão é amplo no momento, visto que a manutenção pode ser tanto fisica quanto
 online. Precisa ser mais debatido no momento.
 
-4. Cronograma
+<h1>4. Cronograma</h1>
    
 Janeiro/2024: Planejamento e Análise
 
@@ -112,7 +112,7 @@ Maio/2024: Testes Finais e Lançamento
 
 ● Monitoramento inicial de feedback e desempenho
 
-7. Recursos
+<h1>7. Recursos</h1>
    
 Pessoal:
 
@@ -138,7 +138,7 @@ git e github para manter o código atulizado
 
 Para garantir a qualidade e confiabilidade do aplicativo/web e do sistema
 
-Equipamentos:
+<h1>Equipamentos:</h1>
 
 ● Computadores e Notebooks:
 
@@ -148,7 +148,7 @@ Para desenvolvimento,teste e gerenciamento de projeto
 
 Para testes e treinamento do aplicativo em condições reais
 
-9. Custos
+<h1>9. Custos</h1>
     
 Pessoal:
 
@@ -181,7 +181,7 @@ inicial).
 ● Custo total: R$50/hora/pessoa * 6 pessoas * 3 dias/semana * 6 horas/dia
 * 4 semanas = R$108.000,00
   
-Tecnologia:
+<h1>Tecnologia:</h1>
 
 Ambiente de Desenvolvimento Integrado (IDE):
 
@@ -227,7 +227,7 @@ Total Geral:
 
 Custo Total do Projeto: $558,000
 
-7. Documentação
+<h1>7. Documentação</h1>
    
 Requisitos Funcionais:
 
@@ -264,7 +264,7 @@ transmissão.
 Políticas de Acesso: Implementação de controles de acesso para garantir que apenas usuários
 autorizados utilizem a interface.
 
-9. Avaliação do Projeto
+<h1>8. Avaliação do Projeto</h1>
     
 Taxa de Adoção do Aplicativo:
 
@@ -321,3 +321,4 @@ Tempo de Implementação:
 implementação da extensão e lançamento até a data prevista.
 
 ● Métrica: Comparação entre a data de conclusão real e a data planejada.
+
