@@ -121,59 +121,110 @@ Tecnologia:
 ● Ambiente de Desenvolvimento Integrado(IDE):
 
 Ferramentas adequadas para desenvolvimento
+
 ● Sistema de versionamento de código:
+
 git e github para manter o código atulizado
+
 ● Ferramentas de Teste de Software:
+
 Para garantir a qualidade e confiabilidade do aplicativo/web e do sistema
+
 Equipamentos:
+
 ● Computadores e Notebooks:
+
 Para desenvolvimento,teste e gerenciamento de projeto
+
 ● Dispositivos Móveis:
+
 Para testes e treinamento do aplicativo em condições reais
+
 9. Custos
+    
 Pessoal:
+
 Desenvolvedores de Software:
+
 ● 5 desenvolvedores trabalhando por 3 dias na semana.
+
 ● Custo médio por desenvolvedor por hora: R$ 100
+
 ● Custo total: R$100/hora/desenvolvedor * 5 desenvolvedores * 3
+
 dias/semana * 6 horas/dia * 20 semanas = R$180.000,00
+
 Gerente de Projeto:
+
 ● 1 gerente de projeto.
+
 ● Custo médio por gerente de projeto por hora: R$150
+
 ● Custo total: R$150/hora/gerente * 1 gerente * 3 dias/semana * 6
 horas/dia * 20 semanas = R$54.000,00
+
 Equipe de Treinamento:
+
 ● 6 pessoas trabalhando por 3 dias na semana (considerando treinamento
 inicial).
+
 ● Custo médio por pessoa por hora: R$50
+
 ● Custo total: R$50/hora/pessoa * 6 pessoas * 3 dias/semana * 6 horas/dia
 * 4 semanas = R$108.000,00
+  
 Tecnologia:
+
 Ambiente de Desenvolvimento Integrado (IDE):
+
 ● Custo total (considerando licenças): R$8.000,00
+
 Sistemas de versionamento de código:
+
 ● Custo total (considerando licenças): R$7,000,00
+
 Servidores e Infraestrutura em Nuvem:
+
 ● Custo total (considerando serviços em nuvem): R$65,000,00
+
 Ferramentas de Teste de Software:
+
 ● Custo total (considerando licenças): R$10,000,00
+
 Equipamentos:
+
 Computadores e Notebooks:
+
 ● Custo total: R$80,000.00
+
 Dispositivos Móveis:
+
 ● Custo total: R$40,000.00
+
 Comunicação:
+
 Ferramentas de Comunicação Online:
+
 ● Custo total: R$6,000.00
+
 Total Geral:
+
 ● Pessoal: R$342,000
+
 ● Tecnologia: R$90,000
+
 ● Equipamentos: R$120,000
+
 ● Comunicação: R$6,000
+
 Custo Total do Projeto: $558,000
+
 7. Documentação
+   
 Requisitos Funcionais:
+
 Interface Web:
+
 A interface deve ser responsiva, garantindo uma experiência de usuário consistente em
 diferentes dispositivos.
 Validação de dados: Verificação de credenciais e nome da planilha antes de enviar para o
@@ -193,7 +244,7 @@ Criptografia: Utilização de métodos de criptografia para proteger dados sens�
 transmissão.
 Políticas de Acesso: Implementação de controles de acesso para garantir que apenas usuários
 autorizados utilizem a interface.
-8. Avaliação do Projeto
+9. Avaliação do Projeto
 Taxa de Adoção do Aplicativo:
 ● Objetivo: Alcançar uma taxa de adoção de 99% entre os funcionários no
 uso regular da extensão.
