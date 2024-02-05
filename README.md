@@ -77,7 +77,7 @@ online. Precisa ser mais debatido no momento.
 
 ● Processo de empatia
 
-Fevereiro/2024: Desenvolvimento do MVP (menor produto viável)
+**Fevereiro/2024: Desenvolvimento do MVP (menor produto viável)**
 
 ● Identificação de requisitos detalhados
 
