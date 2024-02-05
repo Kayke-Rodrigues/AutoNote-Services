@@ -11,10 +11,12 @@
 
 [Documentação - V1 ApexCode.pdf](https://github.com/adancard/TCC-SENAI/files/14166409/Documentacao.-.V1.ApexCode.pdf)
 <p align="center">
+[Documentação - V1 ApexCode.pdf](https://github.com/adancard/TCC-SENAI/files/14166409/Documentacao.-.V1.ApexCode.pdf)
 Problema: Propagar conteúdo de aprendizagem.
+Área: Eletroeletrônica
 </p>
 
-● Área: Eletroeletrônica
+
 
 <h1>1. Escopo</h1>
    
