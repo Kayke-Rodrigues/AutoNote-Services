@@ -8,7 +8,9 @@
 
 <p align="center">
 Problema: Propagar conteúdo de aprendizagem.
-  
+</p>
+
+<p align="center">
 Área: Eletroeletrônica
 </p>
 
