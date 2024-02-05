@@ -1,5 +1,6 @@
 # TCC-SENAI
 ![cd5c9d43-f8ca-4a00-b04b-3c9a9a29445a](https://github.com/adancard/TCC-SENAI/assets/140460362/02de6a5a-0ef8-4abb-83cf-fad55b96aa82)
+
 [Documentação - V1 ApexCode.pdf](https://github.com/adancard/TCC-SENAI/files/14166409/Documentacao.-.V1.ApexCode.pdf)
 
 Problema: Propagar conteúdo de
@@ -38,23 +39,33 @@ extensão.
 ● Falhas técnicas na integração do software: Devido o software planejado ser uma
 extensão já do site web do SENAI (https://www.sp.senai.br/), pode haver
 problemas de comunicação entre as linguagens de programação.
+
 ● Queda de internet: O processo de automação precisa necessariamente de internet
 para ser iniciado, caso a aplicação tenha um cronograma é claro.
+
 ● Falha no banco de dados do servidor SENAI: O site for a do ar é um problema para
 a aplicação.
+
 ● Falta de conhecimento sob a interface visual do site SENAI: Devido não termos o
 acesso necessário para planejar os comandos de automatização, a falta de
 conhecimento sob as camadas onde o professor tem acesso é relativamente um
 problema.
+
 ● Treinamento: Apesar da aplicação ser bem simples, o docente precisa ter o devido
-treinamento para o funcionamento da automatização
+treinamento para o funcionamento da automatização.
+
 ● Manutenção FISICA ou ONLINE: O debate sobre a manutenção do software em
 questão é amplo no momento, visto que a manutenção pode ser tanto fisica quanto
 online. Precisa ser mais debatido no momento.
+
 4. Cronograma
+5. 
 Janeiro/2024: Planejamento e Análise
+
 ● Formação das equipes
+
 ● Processo de empatia
+
 Fevereiro/2024: Desenvolvimento do MVP (menor produto viável)
 ● Identificação de requisitos detalhados
 ● Início do desenvolvimento do escopo do projeto e documentação da ideia
@@ -75,7 +86,7 @@ Maio/2024: Testes Finais e Lançamento
 ● Treinamento final dos docentes
 ● Lançamento oficial do Software
 ● Monitoramento inicial de feedback e desempenho
-5. Recursos
+7. Recursos
 Pessoal:
 ● Desenvolvedores de Software:
 Para a criação do aplicativo/web
@@ -93,7 +104,7 @@ Equipamentos:
 Para desenvolvimento,teste e gerenciamento de projeto
 ● Dispositivos Móveis:
 Para testes e treinamento do aplicativo em condições reais
-6. Custos
+8. Custos
 Pessoal:
 Desenvolvedores de Software:
 ● 5 desenvolvedores trabalhando por 3 dias na semana.
