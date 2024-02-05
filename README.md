@@ -59,7 +59,7 @@ questão é amplo no momento, visto que a manutenção pode ser tanto fisica qua
 online. Precisa ser mais debatido no momento.
 
 4. Cronograma
-5. 
+   
 Janeiro/2024: Planejamento e Análise
 
 ● Formação das equipes
@@ -67,33 +67,59 @@ Janeiro/2024: Planejamento e Análise
 ● Processo de empatia
 
 Fevereiro/2024: Desenvolvimento do MVP (menor produto viável)
+
 ● Identificação de requisitos detalhados
+
 ● Início do desenvolvimento do escopo do projeto e documentação da ideia
 inicial
+
 ● Codificação e validação do MVP com o cliente e adaptação dos
 documentos de escopo (se necessário)
+
 Março/2024: Desenvolvimento do protótipo do aplicativo
+
 ● Definir Versão
+
 ● Desenvolvimento das interfaces do usuário, fluxos da aplicação
+
 ● Desenvolvimento dos micro serviços e bancos de dados
+
 ● Revisão e ajuste do protótipo com feedback da equipe e usuários
+
 Abril/2024: Desenvolvimento de automação
+
 ● Desenvolvimento de automação no software para os professores
+
 ● Início da integração com sistemas existentes
+
 ● Testes de integração e ajustes necessários
+
 Maio/2024: Testes Finais e Lançamento
+
 ● Testes finais do software e do sistema integrado
+
 ● Treinamento final dos docentes
+
 ● Lançamento oficial do Software
+
 ● Monitoramento inicial de feedback e desempenho
+
 7. Recursos
+   
 Pessoal:
+
 ● Desenvolvedores de Software:
+
 Para a criação do aplicativo/web
+
 ● Gerente de Projeto:
+
 Para coordenar e supervisionar todas as atividades
+
 Tecnologia:
+
 ● Ambiente de Desenvolvimento Integrado(IDE):
+
 Ferramentas adequadas para desenvolvimento
 ● Sistema de versionamento de código:
 git e github para manter o código atulizado
@@ -104,7 +130,7 @@ Equipamentos:
 Para desenvolvimento,teste e gerenciamento de projeto
 ● Dispositivos Móveis:
 Para testes e treinamento do aplicativo em condições reais
-8. Custos
+9. Custos
 Pessoal:
 Desenvolvedores de Software:
 ● 5 desenvolvedores trabalhando por 3 dias na semana.
