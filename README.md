@@ -7,7 +7,7 @@ Problema: Propagar conteúdo de
 aprendizagem.
 ● Área: Eletroeletrônica
 ● Responsáveis: Kayke, Ana, Ricardo, Pablo, Adan e Felipe.
-1. h1>Escopo<</h1>
+1. Escopo
    
 O projeto tem como objetivo principal a automação e melhoria do sistema online do SENAI,
 proporcionando uma experiência mais eficiente para professores (docentes), tendo como
@@ -227,56 +227,89 @@ Interface Web:
 
 A interface deve ser responsiva, garantindo uma experiência de usuário consistente em
 diferentes dispositivos.
+
 Validação de dados: Verificação de credenciais e nome da planilha antes de enviar para o
 servidor.
+
 Feedback visual: Mensagens claras sobre o sucesso ou falha da operação.
+
 Script Python:
+
 Automação de Login: O script deve ser capaz de realizar o login automaticamente no sistema
 do Senai.
+
 Inserção de Notas: Implementação de lógica para inserir as notas na planilha específica.
+
 Integração:
+
 Biblioteca: Estabelecer uma Biblioteca para comunicação eficiente entre a interface web e o
 script Python.
+
 Segurança na Comunicação: Uso de protocolos seguros para transferência de dados entre a
 interface e o script.
+
 Mecanismo de Segurança:
+
 Criptografia: Utilização de métodos de criptografia para proteger dados sensíveis durante a
 transmissão.
+
 Políticas de Acesso: Implementação de controles de acesso para garantir que apenas usuários
 autorizados utilizem a interface.
+
 9. Avaliação do Projeto
+    
 Taxa de Adoção do Aplicativo:
+
 ● Objetivo: Alcançar uma taxa de adoção de 99% entre os funcionários no
 uso regular da extensão.
+
 ● Métrica: Número total de funcionários utilizando a extensão em
 comparação com o número total de funcionários.
+
 Eficiência Operacional:
+
 ● Objetivo: Reduzir o tempo médio gasto na conclusão da atividade de
 digitação de notas em pelo menos 35% após a implementação da
 extensão.
+
 ● Métrica: Comparação do tempo médio de conclusão de atividade de
 digitação de notas antes e após a implementação.
+
 Taxa de Conclusão:
+
 ● Objetivo: Alcançar uma taxa de conclusão de pelo menos 95% dos
 sistemas designados no prazo estabelecido.
+
 ● Métrica: Número de sistemas marcados como finalizados e persistentes
 em relação ao número total de sistemas designados.
+
 Satisfação do Usuário:
+
 ● Objetivo: Alcançar uma pontuação de satisfação do usuário de pelo
 menos 4,5 em 5, com base em pesquisas de satisfação.
+
 ● Métrica: Resultados de pesquisas de satisfação realizadas com
 funcionários e supervisores.
+
 Integridade dos Dados:
+
 ● Objetivo: Alcançar uma precisão de pelo menos 98% na integridade dos
 dados registrados pelo sistema.
+
 ● Métrica: Comparação entre os dados registrados no sistema e as
 verificações físicas dos ambientes.
+
 Disponibilidade do Sistema:
+
 ● Objetivo: Garantir uma disponibilidade do sistema de pelo menos 99,7%
 ao longo do tempo.
+
 ● Métrica: Tempo total de operação sem interrupções em comparação com
 o tempo total planejado.
+
 Tempo de Implementação:
+
 ● Objetivo: Cumprir o cronograma estabelecido, realizando a
 implementação da extensão e lançamento até a data prevista.
+
 ● Métrica: Comparação entre a data de conclusão real e a data planejada.
