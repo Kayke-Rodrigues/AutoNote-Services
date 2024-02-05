@@ -3,7 +3,7 @@
 <h1>Responsáveis: Kayke, Ana, Ricardo, Pablo, Adan e Felipe.</h1>
 
 <p align="center">
-  <img src="https://github.com/adancard/TCC-SENAI/assets/125130778/477b5054-fc88-42ba-887c-2de091e9030f" alt="Sublime's custom image"/>
+  <img with=30% src="https://github.com/adancard/TCC-SENAI/assets/125130778/477b5054-fc88-42ba-887c-2de091e9030f" alt="Sublime's custom image"/>
 </p>
 
 
