@@ -5,8 +5,11 @@
 
 Problema: Propagar conteúdo de
 aprendizagem.
+
 ● Área: Eletroeletrônica
-● Responsáveis: Kayke, Ana, Ricardo, Pablo, Adan e Felipe.
+
+<h1>Responsáveis: Kayke, Ana, Ricardo, Pablo, Adan e Felipe.</h1>
+
 1. Escopo
    
 O projeto tem como objetivo principal a automação e melhoria do sistema online do SENAI,
