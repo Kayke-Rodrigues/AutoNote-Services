@@ -87,7 +87,7 @@ inicial
 ● Codificação e validação do MVP com o cliente e adaptação dos
 documentos de escopo (se necessário)
 
-Março/2024: Desenvolvimento do protótipo do aplicativo
+**Março/2024: Desenvolvimento do protótipo do aplicativo**
 
 ● Definir Versão
 
@@ -97,7 +97,7 @@ Março/2024: Desenvolvimento do protótipo do aplicativo
 
 ● Revisão e ajuste do protótipo com feedback da equipe e usuários
 
-Abril/2024: Desenvolvimento de automação
+**Abril/2024: Desenvolvimento de automação**
 
 ● Desenvolvimento de automação no software para os professores
 
@@ -105,7 +105,7 @@ Abril/2024: Desenvolvimento de automação
 
 ● Testes de integração e ajustes necessários
 
-Maio/2024: Testes Finais e Lançamento
+**Maio/2024: Testes Finais e Lançamento**
 
 ● Testes finais do software e do sistema integrado
 
