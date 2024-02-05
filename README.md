@@ -138,7 +138,7 @@ git e github para manter o código atulizado
 
 Para garantir a qualidade e confiabilidade do aplicativo/web e do sistema
 
-<h1>6.Equipamentos:</h1>
+Equipamentos:
 
 ● Computadores e Notebooks:
 
