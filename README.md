@@ -13,15 +13,8 @@ Problema: Propagar conteúdo de aprendizagem.
 </p>
 
 <p - align="center">
-  <a href="[Documentação - V1 ApexCode.pdf](https://github.com/adancard/TCC-SENAI/files/14166409/Documentacao.-.V1.ApexCode.pdf)">Documentação ApexCode</a>
-  <a href="https://github.com/adancard/TCC-SENAI/files/14166409/Documentacao.-.V1.ApexCode.pdf">link text</a>
+  <a href="https://github.com/adancard/TCC-SENAI/files/14166409/Documentacao.-.V1.ApexCode.pdf">Documentação ApexCode</a>
 </p>
-
-[Documentação - V1 ApexCode.pdf](https://github.com/adancard/TCC-SENAI/files/14166409/Documentacao.-.V1.ApexCode.pdf)
-
-
-
-
 
 <h1>1. Escopo</h1>
    
