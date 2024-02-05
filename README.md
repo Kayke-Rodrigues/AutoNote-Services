@@ -27,7 +27,7 @@ e amigável para professores. O cronograma estabelecido é flexível, sujeito a 
 evolução do desenvolvimento. Ao final, espera-se um sistema robusto, seguro e de fácil
 utilização para todos os envolvidos.
 
-<h1>3. Objetivos do Projeto</h1>
+<h1>2. Objetivos do Projeto</h1>
 
 ● Desenvolver uma extensão no site principal do SENAI, que permita os docentes
 automatizarem as notas dos alunos.
@@ -112,7 +112,7 @@ Maio/2024: Testes Finais e Lançamento
 
 ● Monitoramento inicial de feedback e desempenho
 
-<h1>7. Recursos</h1>
+<h1>5. Recursos</h1>
    
 Pessoal:
 
@@ -138,7 +138,7 @@ git e github para manter o código atulizado
 
 Para garantir a qualidade e confiabilidade do aplicativo/web e do sistema
 
-<h1>Equipamentos:</h1>
+<h1>6.Equipamentos:</h1>
 
 ● Computadores e Notebooks:
 
@@ -148,7 +148,7 @@ Para desenvolvimento,teste e gerenciamento de projeto
 
 Para testes e treinamento do aplicativo em condições reais
 
-<h1>9. Custos</h1>
+<h1>7. Custos</h1>
     
 Pessoal:
 
@@ -181,7 +181,7 @@ inicial).
 ● Custo total: R$50/hora/pessoa * 6 pessoas * 3 dias/semana * 6 horas/dia
 * 4 semanas = R$108.000,00
   
-<h1>Tecnologia:</h1>
+<h1>8.Tecnologia:</h1>
 
 Ambiente de Desenvolvimento Integrado (IDE):
 
@@ -227,7 +227,7 @@ Total Geral:
 
 Custo Total do Projeto: $558,000
 
-<h1>7. Documentação</h1>
+<h1>9. Documentação</h1>
    
 Requisitos Funcionais:
 
