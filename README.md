@@ -12,7 +12,7 @@ aprendizagem.
 
 ● Área: Eletroeletrônica
 
-1. Escopo
+1. <h1>Escopo</h1>
    
 O projeto tem como objetivo principal a automação e melhoria do sistema online do SENAI,
 proporcionando uma experiência mais eficiente para professores (docentes), tendo como
