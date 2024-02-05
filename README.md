@@ -12,7 +12,7 @@ aprendizagem.
 
 ● Área: Eletroeletrônica
 
-1. <h1>Escopo</h1>
+<h1>1. Escopo</h1>
    
 O projeto tem como objetivo principal a automação e melhoria do sistema online do SENAI,
 proporcionando uma experiência mais eficiente para professores (docentes), tendo como
@@ -24,7 +24,7 @@ e amigável para professores. O cronograma estabelecido é flexível, sujeito a 
 evolução do desenvolvimento. Ao final, espera-se um sistema robusto, seguro e de fácil
 utilização para todos os envolvidos.
 
-3. Objetivos do Projeto
+<h1>3. Objetivos do Projeto</h1>
 
 ● Desenvolver uma extensão no site principal do SENAI, que permita os docentes
 automatizarem as notas dos alunos.
