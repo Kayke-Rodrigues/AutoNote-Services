@@ -1,5 +1,3 @@
-# TCC-SENAI
-
 <h1>Responsáveis: Kayke, Ana, Ricardo, Pablo, Adan e Felipe.</h1>
 
 <p align="center">
