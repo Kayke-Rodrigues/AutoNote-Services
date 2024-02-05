@@ -17,7 +17,8 @@ e amigável para professores. O cronograma estabelecido é flexível, sujeito a 
 evolução do desenvolvimento. Ao final, espera-se um sistema robusto, seguro e de fácil
 utilização para todos os envolvidos.
 2. Objetivos do Projeto
-  ● Desenvolver uma extensão no site principal do SENAI, que permita os docentes
+
+● Desenvolver uma extensão no site principal do SENAI, que permita os docentes
 automatizarem as notas dos alunos.
 ● Implementar uma forma de copiar dados por meio de uma interface, que possa
 automatizar o trabalho do professor.
