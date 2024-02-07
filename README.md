@@ -18,30 +18,53 @@ Problema: Propagar conteúdo de aprendizagem.
 
 <h1>1. Escopo</h1>
    
-O projeto tem como objetivo principal a automação e melhoria do sistema online do SENAI,
-proporcionando uma experiência mais eficiente para professores (docentes), tendo como
-principal funcionalidade a ser implementada inclui a inserção de notas dos alunos, visualização
-de relatórios de notas da sala no geral, além de implementação de backups periódicos para
-garantir a segurança dos dados e melhorias gerais no manuseio do site. Sendo assim, o projeto
-visa modernizar e otimizar o sistema do SENAI, proporcionando uma ferramenta mais eficiente
-e amigável para professores. O cronograma estabelecido é flexível, sujeito a ajustes conforme a
-evolução do desenvolvimento. Ao final, espera-se um sistema robusto, seguro e de fácil
-utilização para todos os envolvidos.
+Desenvolver um site responsivo que permita aos professores avaliar a capacidade dos alunos em diversas competências, 
+sendo avaliação de capacidade a serem definidas, avaliação somativa, dentre outras avaliações a ser elaboradas. 
+Fornecendo uma plataforma centralizada para gerenciar, registrar e analisar o desempenho de cada aluno ao longo do
+tempo necessário.
+
+**Funcionalidades Principais:**
+
+● Autenticação do Professor: O professor terá um login para acessar o sistema.
+
+● Gerenciamento de Turmas: O professo irá selecionar a turma desejada, na qual já terá a lista de alunos definidos pela instituição de ensino.
+
+● Definição de Competências: O sistema permitirá ao professor que o mesmo selecionará as competências exigidas que serão avaliadas em sala de aula.
+
+● Avaliação Somativa: Os professores poderão realizar avaliações somativas para medir o progresso dos alunos em relação às competências definidas.
+
+**Detalhamento do Aluno:**
+O sistema permitirá ao professor registrar detalhes específicos do desempenho de cada aluno,
+para definir as notas, observações e evidências de aprendizado.
+
+**Registro Diário:**
+
+Haverá uma funcionalidade para o professor registrar as informações de avaliação conforme necessário durante o dia a dia, 
+mês ou  semestre. Isso incluirá a capacidade de salvar as informações inseridas.
+
+**Relatório Digital:**
+
+Ao final do semestre, o professor terá acesso a um relatório digital abrangente contendo todas as informações registradas, 
+incluindo porcentagens de conclusão das competências esperadas por cada aluno.
+
+**Considerações Finais:**
+
+Este sistema oferecerá uma solução eficiente e prática para professores acompanharem o desempenho dos alunos, fornecendo
+insights valiosos sobre o progresso individual e coletivo em relação às competências educacionais definidas.
 
 <h1>2. Objetivos do Projeto</h1>
 
-● Desenvolver uma extensão no site principal do SENAI, que permita os docentes
-automatizarem as notas dos alunos.
+● Desenvolver um site responsivo que permitará os docentes  avaliar a 
+capacidade dos alunos em diversas competências.
 
-● Implementar uma forma de copiar dados por meio de uma interface, que possa
-automatizar o trabalho do professor.
+● Implementar uma forma que faça um beckup no banco de dados que salve os dados inseridos, 
+e que possa automatizar o trabalho do professor.
 
-● Otimizar o tempo gasto em trabalho manual de inserção de notas.
+● Otimizar o tempo gasto em trabalho manual de avaliação.
 
-● Assegurar que os professores não terão dificuldades no entendimento da
-extensão.
+● Assegurar que os professores não terão dificuldades no entendimento do site.
 
-● Estabelecer um sistema que gere relatórios e que faça Backup dos dados.
+● Estabelecer um sistema que gere relatórios de cada aluno ou da turma que desejar.
 
 <h1>3.Análise de Riscos</h1>
 
