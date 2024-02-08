@@ -110,7 +110,7 @@ documentos de escopo (se necessário)
 
 **Março/2024: Desenvolvimento do protótipo do aplicativo**
 
-● Definir Versão
+● Definir Softwares necessárias para utilizarmos
 
 ● Desenvolvimento das interfaces do usuário, fluxos da aplicação
 
@@ -120,15 +120,15 @@ documentos de escopo (se necessário)
 
 **Abril/2024: Desenvolvimento de automação**
 
-● Desenvolvimento de automação no software para os professores
+● Desenvolvimento do site para os professores
 
-● Início da integração com sistemas existentes
+● Início da integração do projeto
 
 ● Testes de integração e ajustes necessários
 
 **Maio/2024: Testes Finais e Lançamento**
 
-● Testes finais do software e do sistema integrado
+● Testes finais do software  criado
 
 ● Treinamento final dos docentes
 
