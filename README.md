@@ -295,17 +295,16 @@ Taxa de Adoção do Aplicativo:
 ● Objetivo: Alcançar uma taxa de adoção de 99% entre os funcionários no
 uso regular da extensão.
 
-● Métrica: Número total de funcionários utilizando a extensão em
+● Métrica: Número total de funcionários utilizando a aplicação em
 comparação com o número total de funcionários.
 
 Eficiência Operacional:
 
-● Objetivo: Reduzir o tempo médio gasto na conclusão da atividade de
-digitação de notas em pelo menos 35% após a implementação da
-extensão.
+● Objetivo: Aumentar a facilidade e acessibilidade para os docentes avaliarem os alunos
+tanto em suas capacidades técnicas quanto nas emocionais durante a aula.
 
-● Métrica: Comparação do tempo médio de conclusão de atividade de
-digitação de notas antes e após a implementação.
+● Métrica: Comparação com os docentes que utilizam bloco de nota, papel
+para realizar anotações no meio da sala.
 
 Taxa de Conclusão:
 
