@@ -110,7 +110,7 @@ documentos de escopo (se necessário)
 
 **Março/2024: Desenvolvimento do protótipo do aplicativo**
 
-● Definir Softwares necessárias para utilizarmos
+● Definir Softwares necessário para ser utilizados
 
 ● Desenvolvimento das interfaces do usuário, fluxos da aplicação
 
