@@ -1,0 +1,235 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: Rgba(241,241,241,1);
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+
+
+#cabecalho {
+    align-items:center;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    background-color: Rgba(241,241,241,1);
+    border-bottom:  black solid 2px;
+  
+}
+
+#senaiLogo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    height: 30px;
+    align-items:center;
+    justify-content:center;
+}
+
+#DivImagemLogoApex {
+    margin-top: 20px;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+#imagemClara{
+    height: 140px;
+    width: 150px;
+}
+
+#caixaLogin{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .login{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 600px;
+    background-color: #1C1726;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 2px 2px 30px 5px black;
+    
+} */
+
+.info{
+    border-radius: 15px;
+    width:  20%;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFFF;
+    box-shadow: 1px 1px 10px black;
+}
+
+
+input {
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: -5px;
+    height: 5px;
+    padding: 10px;
+    width: 70%;
+}
+
+::placeholder{
+   
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+    
+
+}
+
+form {
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    height: 100%;    
+}
+
+
+
+form [ type="submit"] {
+    border-radius: 20px;
+    height: 30px;
+    width: 50%;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+#enviar{
+    margin-top: 0px;
+    cursor: pointer;
+    width: 80px;
+    font-size: 12px;
+}
+
+#imagemDark{
+
+    z-index: 1;
+    display: none;
+
+}
+
+ #icon{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background: url('../img/hide.png');
+    background-size: cover;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+}   
+
+ #icon.hide{
+    background: url('../img/show.png');
+    background-size: cover;
+}  
+
+
+ .text{
+    margin-top: 40px;
+    text-shadow: 2px 2px 30px 5px black;
+    text-align: center;
+    font-size: 27px;
+    color: white;
+} 
+
+
+
+
+#iconeSenha {
+    background-size: cover;
+    width: 28px;
+    height: 8px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+/*DARK MODE*/
+
+
+/* Dark Mode */
+
+#darkModeToggle{
+ float: right;
+ background-color: transparent;
+ border-color: transparent;
+}
+
+#sol{
+    width: 5%;
+    height: 60px; 
+    position:absolute;
+    z-index: 1;
+    right: 2vh
+}
+
+
+.dark-mode {
+    background-color: #4F4F4F;
+    color: #fff;
+}
+
+.dark-mode-section {
+    background-color: red; 
+    color: #fff; 
+}
+
+.dark-mode-enviar {
+    background-color: #4F4F4F;
+    color: #FFFF;
+}
+
+.dark-mode-email {
+    background-color: #4F4F4F;
+    color: #ffff;
+}
+
+.dark-mode-form {
+    background-color: red;
+}
+
+.dark-mode-password {
+    background-color: #4F4F4F;
+    color: white;
+}
+
+.dark-mode-section input::placeholder {
+    color: white;
+}
+
+
+.dark-mode-logo{
+    background-color: #4F4F4F;
+}
+
