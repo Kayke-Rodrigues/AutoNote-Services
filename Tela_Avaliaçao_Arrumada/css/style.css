@@ -145,7 +145,7 @@ h2{
 
 footer{
   float: right;
-  margin-top: 40px;
+  margin-top: 40vh;
 }
 
 
@@ -163,6 +163,13 @@ footer{
   float: left;
   display: none;
   width: 6%;
+}
+
+#claraModeToggle{
+  float: right;
+  background-color: transparent;
+  border-color: transparent;
+  display: none;
 }
 
 

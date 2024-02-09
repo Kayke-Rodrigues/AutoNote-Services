@@ -1,8 +1,9 @@
 *{
+
   margin: 0;
   padding: 0;
-}
 
+}
 
 body {
   background-color: Rgba(241,241,241,1);
@@ -10,20 +11,17 @@ body {
   padding: 0;
 }
 
-
 h1{
 
   font-size: 50px;
 
 }
 
-
 #MenuLateral{
 
   width: 100%;
 
 }
-
 
 #cabecalhoLogo {
   border-bottom: 2px solid #000000;
@@ -32,7 +30,6 @@ h1{
   align-items: center;
   flex: 1 1 100vw;
 }
-
 
 header #LogoSenaiHeader{
   margin-top: 20px;
@@ -43,7 +40,6 @@ header #LogoSenaiHeader{
   position: relative;
 
 }
-
 
 #DivImagem{
 
@@ -57,11 +53,11 @@ header #LogoSenaiHeader{
 
 }
 
-
 #LogoSenaiHeader{
   width: 20%;
   height: 50%;
 }
+
 
 
 #iconePessoaEscuro{
@@ -149,7 +145,7 @@ h2{
 
 footer{
   float: right;
-  margin-top: 40px;
+  margin-top: 40vh;
 }
 
 
@@ -167,6 +163,13 @@ footer{
   float: left;
   display: none;
   width: 6%;
+}
+
+#claraModeToggle{
+  float: right;
+  background-color: transparent;
+  border-color: transparent;
+  display: none;
 }
 
 
@@ -208,4 +211,4 @@ footer{
 .dark-mode .circulo-container h1::after {
   background-color: #fff; 
   border-radius: 2px;
-}
+} 

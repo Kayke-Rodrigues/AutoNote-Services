@@ -19,12 +19,18 @@ function toggleDarkMode() {
 
       var iconeEscuro = document.getElementById("iconePessoaEscuro");
       var iconeBranco = document.getElementById("iconePessoaBranco")
-
+      var botaoClara = document.getElementById('claraModeToggle');
+      var botaoDark = document.getElementById('darkModeToggle');
+    
       if (document.body.classList.contains('dark-mode')) {
         iconeEscuro.style.display = 'none';
+        botaoDark.style.display = 'none'
         iconeBranco.style.display = 'inline-block';
+        botaoClara.style.display = 'inline-block';
       } else {
         iconeEscuro.style.display = 'inline-block';
+        botaoDark.style.display = 'inline-block';
         iconeBranco.style.display = 'none';
+        botaoClara.style.display = 'none'
       }
     }
