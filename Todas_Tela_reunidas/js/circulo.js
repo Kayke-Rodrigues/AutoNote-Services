@@ -1,7 +1,7 @@
 let currentSet = 1; 
 
 function changeCircles(direction) {
-  document.getElementById(`circleSet${currentSet}`).style.display = "none";
+  document.getElementById(`circuloSet${currentSet}`).style.display = "none";
 
   currentSet += direction;
 
@@ -11,5 +11,5 @@ function changeCircles(direction) {
     currentSet = 2;
   }
 
-  document.getElementById(`circleSet${currentSet}`).style.display = "flex";
+  document.getElementById(`circuloSet${currentSet}`).style.display = "flex";
 }

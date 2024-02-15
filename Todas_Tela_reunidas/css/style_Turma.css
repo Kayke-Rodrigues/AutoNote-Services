@@ -22,10 +22,14 @@ h1{
 
 
 /* Adicione uma classe específica para cada círculo, como circle1, circle2, etc. */
-.circle-set {
+.circulo-set {
 display: flex;
 }
 
+
+#circuloSet2 {
+  display: none;
+}
 
 
 #botaoVoltar{

@@ -34,3 +34,32 @@ function toggleDarkMode() {
         botaoClara.style.display = 'none'
       }
     }
+
+    // Preferência de tema armazenada
+const temaSalvo = localStorage.getItem('tema');
+
+// Preferência de tema, aplica o tema correspondente
+if (temaSalvo === 'escuro') {
+    applyDarkModeStyles();
+} else {
+    applyLightModeStyles();
+}
+
+
+// Aplicar estilos do modo escuro
+function applyDarkModeStyles() {
+
+  document.body.classList.add('dark-mode');
+  document.getElementById('caixaLogin').classList.add('dark-mode');
+  document.getElementById('cabecalho').classList.add('dark-mode');
+}
+
+// Aplica estilos do modo claro
+function applyLightModeStyles() {
+
+  document.body.classList.remove('dark-mode');
+  document.getElementById('caixaLogin').classList.remove('dark-mode');
+  document.getElementById('cabecalho').classList.remove('dark-mode');
+
+}
+
