@@ -1,0 +1,76 @@
+@media (max-width: 900px) {
+  #cabecalho {
+    height: 60px;
+  }
+
+  #senaiLogo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 20px;
+  }
+
+  #sol {
+
+    width: 10%;
+    height: 10%;
+
+  }
+
+  .container {
+
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  
+  .circulo-set {
+
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .circulo-container h1::after {
+
+    bottom: -41px;
+
+  }
+
+  .circulo-container {
+
+    margin: 42px;
+
+  }
+
+  #iconePessoaBranco {
+    width: 6em;
+  }
+
+  #iconePessoaEscuro {
+    width: 6em;
+  }
+
+  #MenuLateral{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  h2{
+
+    width: 100%;
+
+  }
+
+  #DivImagem{
+
+    position: relative;
+
+  }
+
+
+
+}

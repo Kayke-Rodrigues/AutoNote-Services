@@ -44,12 +44,9 @@ header #LogoSenaiHeader{
 #DivImagem{
 
   display: flex;
-  width: 90%;
+  width: 65%;
   height: 20%;
   justify-content: center;
-  position: absolute;
-  z-index: 7;
-  margin-top: 4%;
 
 }
 

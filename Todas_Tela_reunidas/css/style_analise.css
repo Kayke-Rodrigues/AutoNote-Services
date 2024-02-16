@@ -44,12 +44,9 @@ header #LogoSenaiHeader{
 #DivImagem{
 
   display: flex;
-  width: 90%;
+  width: 65%;
   height: 20%;
   justify-content: center;
-  position: absolute;
-  z-index: 7;
-  margin-top: 4%;
 
 }
 
@@ -165,13 +162,6 @@ footer{
   width: 6%;
 }
 
-#claraModeToggle{
-  float: right;
-  background-color: transparent;
-  border-color: transparent;
-  display: none;
-}
-
 
 
 
@@ -181,6 +171,13 @@ footer{
     border-color: transparent;
     cursor: pointer;
    }
+
+   #claraModeToggle{
+    float: right;
+    background-color: transparent;
+    border-color: transparent;
+    display: none;
+}
    
    #sol{
     width: 5%;
@@ -211,4 +208,4 @@ footer{
 .dark-mode .circulo-container h1::after {
   background-color: #fff; 
   border-radius: 2px;
-} 
+}
