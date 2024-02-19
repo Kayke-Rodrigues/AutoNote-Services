@@ -2,25 +2,138 @@ body {
     background-color: black;
 }
 
+header {
+
+  background-color: black;
+  height: 100px;
+  flex: 1 1 100vw;
+  display: flex;
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+
+}
+
+header #logo {
+  display: flex;
 
 
-#cabecalhoLogo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1 1 100vw;
-  }
+}
+
+.menu {
+
+  align-items: center;
+  float: right;
+
+}
+
+nav {
+
+  justify-content: flex-end;
+  align-items: center;
+  flex: 1 1 200px;
+}
+
+nav a {
+
+  margin: 0 2%;
+  font-size: 15pt;
+}
+
+main {
+  height: calc(100vh - 224px);
+  height: 1000px;
+  display: flex;
+  flex: 20 1 500px;
+  /* border: solid red 2px; */
+
+
+}
+
+.navbar {
+  /* border: solid red 2px; */
+
+  justify-content: flex-end;
+  display: flex;
+  overflow: hidden;
+  background-color: black;
+  width: auto;
+  height: 100px;
+  align-items: center;
+
+}
+
+.navbar a {
+
+
+  /* border: solid red 2px;  */
+  float: right;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+
+}
+
+
+.navbar a:hover {
+
+
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  transition: 1s 0s;  
+}
+
+
+
+
 
 
   #imagem-grupo{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10 0px;
   }
 
-  #perguntas-respostas{
+  #QuemSomos{
     color: #ffff;
+    display: flex;
+    margin-top: 20px;
+    border-bottom: white solid 2px;
+    border-top: white solid 2px;
+    margin-bottom: 100px;
+  }
+
+  #Oque{
+    color: #ffff;
+    display: flex;
+    margin-top: 20px;
+    border-bottom: white solid 2px;
+    border-top: white solid 2px;
+    margin-bottom: 100px;
+  }
+
+  #Previsao{
+    color: #ffff;
+    display: flex;
+    margin-top: 20px;
+    border-bottom: white solid 2px;
+    border-top: white solid 2px;
+    margin-bottom: 100px;
+  }
+
+  .texto{
+
     text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
   }
 
   
