@@ -16,6 +16,12 @@
 
   }
 
+  h1{
+
+      width: 97%;
+    
+  }
+
   .container {
 
     flex-direction: column;
