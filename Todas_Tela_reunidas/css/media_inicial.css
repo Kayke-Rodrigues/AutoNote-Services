@@ -18,7 +18,7 @@
 
   h1{
 
-      width: 93%;
+      width: 90%;
     
   }
 
@@ -49,6 +49,12 @@
 
   }
 
+  .circulo{
+
+    margin-right: 96px;
+
+  }
+
   #iconePessoaBranco {
     width: 6em;
   }
@@ -74,6 +80,34 @@
   #DivImagem{
 
     position: relative;
+
+  }
+
+  #ContainerBotao{
+
+    display: none;
+
+  }
+
+  #circuloSet2{
+
+    display: block;
+    margin: 42px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .container h1::after {
+
+    bottom: -21px;
+
+  }
+
+  #container{
+
+    align-items: center;
 
   }
 

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tela Disciplinas</title>
+    <link rel="stylesheet" href="css/style_Turma.css" />
+    <link rel="stylesheet" href="css/media_inicial.css">
+    <link rel="shortcut icon" href="img/favicon-96x96.png" type="image/x-icon">
+  </head>
+
+  <body>
+    <!-- CABEÇALHO(HEADER) -->
+    <header id="cabecalhoLogo">
+
+      <div id="MenuLateral">
+          <img id="iconePessoaEscuro" src="img/icone.png" alt="" width="120">
+          <img id="iconePessoaBranco" src="img/icone_branco.png" alt="" width="120">
+          <h2>"RAFAEL"</h2>
+
+          <div id="DivImagem">
+              <img id="LogoSenaiHeader" src="img/senai-logo-4-599x154.png" alt="" />
+          </div>
+      </div>
+
+  </header>
+
+    <!-- TITULO DA APLICAÇÃO (TURMA) -->
+   
+    <div class="titulo">
+        <button id="darkModeToggle" onclick="toggleDarkMode()"><img id="sol" src="img/crescent-moon-png-21.png" alt=""></button>
+        <button id="claraModeToggle" onclick="toggleDarkMode()"><img id="sol" src="img/iconeSol.png" alt=""></button>
+        <p><h1>Disciplinas</h1></p>
+    </div>
+
+    <!-- Botões de navegação do carrossel -->
+    <div id="ContainerBotao">
+      <button id="botaoVoltar" onclick="changeCircles(-1)"><img id="imagemVoltar" src="img/botaoAnterior.png" alt=""></button>
+      <button id="botaoProximo" onclick="changeCircles(1)"><img id="imagemProximo" src="img/botaoProximo.png" alt=""></button>
+  </div>   
+    <!-- Contêiner dos círculos -->
+    <div class="container" id="circleContainer">
+        <!-- Conjunto de círculos 1 -->
+        <div class="circulo-set" id="circuloSet1">
+          <!-- Primeiro círculo e texto -->
+          <a href="pagina_Somativa.html" class="circulo-container">
+            <div class="circulo">
+              <div class="circulo-content">
+                <img src="img/react.png" alt="Imagem 1"/>
+              </div>
+            </div>
+            <h1>REACT NATIVE</h1>
+          </a>
+
+       <!-- Segundo círculo e texto -->
+    <a href="pagina_Somativa.html" class="circulo-container">
+        <div class="circulo">
+          <div class="circulo-content">
+            <img src="img/css.png" alt="Imagem 2" />
+          </div>
+        </div>
+        <h1>CSS</h1>
+      </a>
+
+       <!-- Terceiro círculo e texto -->
+       <a href="pagina_Somativa.html" class="circulo-container">
+        <div class="circulo">
+          <div class="circulo-content">
+            <img src="img/javascript.png" alt="Imagem 3" />
+          </div>
+        </div>
+        <h1>JS</h1>
+      </a>
+    </div>
+
+
+</div>
+    
+
+
+
+<div class="container" id="circuloSet2">
+  <!-- Circle 6 -->
+  <a href="pagina_seis.html" class="circulo-container">
+    <div class="circulo">
+      <div class="circulo-content">
+        <img src="img/powerBi.png" alt="Imagem Seis" />
+      </div>
+    </div>
+    <h1>1PBI-M</h1>
+  </a>
+
+  <!-- Circle 7 -->
+  <a href="pagina_sete.html" class="circulo-container">
+    <div class="circulo">
+      <div class="circulo-content">
+        <img src="img/powerBi.png" alt="Imagem Sete" />
+      </div>
+    </div>
+    <h1> 1PBI-T</h1>
+  </a>
+
+ 
+</div>
+
+
+    <!-- Rodape onde as imagens do logo estao -->
+    <footer>
+      <img
+        id="imagemClara"
+        src="img/logo_preto.png"
+        alt=""
+        width="100"
+        height="65"
+      />
+      <img
+        id="imagemDark"
+        src="img/logo_vermelho.png"
+        width="100"
+        height="60"
+      />
+
+
+
+    </footer>
+    <script src="js/dark_Turma.js"></script>
+    <script src="js/circulo.js"></script>
+  </body>
+</html>

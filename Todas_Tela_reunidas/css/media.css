@@ -1,3 +1,36 @@
+@media (max-width: 900px) {
+  /* Ajustes para telas menores */
+  #cabecalho {
+    height: 60px;
+  }
+  
+  #senaiLogo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 20px;
+  }
+  
+  /* Ajuste do contêiner de login */
+  #caixaLogin {
+    margin-top: 20px;
+  }
+  
+  .info {
+    width: 30%; /* Redimensionar a largura do formulário */
+    height: 15em; /* Alterar a altura para se ajustar ao conteúdo */
+  }
+
+  #sol{
+
+      width: 10%;
+      height: 10%;
+
+  }
+
+
+}
+
+
 @media (max-width: 500px) {
     /* Ajustes para telas menores */
     #cabecalho {
@@ -28,4 +61,6 @@
     }
 
 }
+
+
   
