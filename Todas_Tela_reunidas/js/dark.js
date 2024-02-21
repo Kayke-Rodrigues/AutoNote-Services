@@ -47,7 +47,7 @@ function updateAppearance() {
     applyDarkModeStyles();
 
     // Troca a imagem na DivImagem para o modo escuro
-    document.getElementById('imagemClara').style.display = 'none';
+    document.getElementById('imagemClara').style.display = 'inline-block';
     document.getElementById('darkModeToggle').style.display = 'none';
     document.getElementById('imagemDark').style.display = 'inline-block';
     document.getElementById('claraModeToggle').style.display = 'inline-block';

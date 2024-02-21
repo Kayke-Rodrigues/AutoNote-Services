@@ -1,13 +1,6 @@
 // Aplica estilos do modo escuro
 function applyDarkModeStyles() {
   document.body.classList.add('dark-mode');
-  document.getElementById('caixaLogin').classList.add('dark-mode');
-  document.getElementById('cabecalho').classList.add('dark-mode');
-  document.getElementById('formcores').classList.add('dark-mode-form');
-  document.getElementById('senha').classList.add('dark-mode-password');
-  document.getElementById('email').classList.add('dark-mode-email');
-  document.getElementById('enviar').classList.add('dark-mode-enviar');
-  
 }
 
 
@@ -16,13 +9,6 @@ function applyDarkModeStyles() {
 // Aplica estilos do modo claro
 function applyLightModeStyles() {
   document.body.classList.remove('dark-mode');
-  document.getElementById('caixaLogin').classList.remove('dark-mode');
-  document.getElementById('cabecalho').classList.remove('dark-mode');
-  document.getElementById('formcores').classList.remove('dark-mode-form');
-  document.getElementById('senha').classList.remove('dark-mode-password');
-  document.getElementById('email').classList.remove('dark-mode-email');
-  document.getElementById('enviar').classList.remove('dark-mode-enviar');
-
 }
 
 // Alterna entre os modos claro e escuro
