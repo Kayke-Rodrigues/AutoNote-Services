@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-Problema: Propagar conteúdo de aprendizagem.
+Problema: Facilitar conteúdo de aprendizagem.
 </p>
 
 <p align="center">
