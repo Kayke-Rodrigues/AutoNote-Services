@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-Problema: Facilitar conteúdo de aprendizagem.
+Problema: Facilitar a forma avaliativa do MSEP.
 </p>
 
 <p align="center">
