@@ -8,6 +8,11 @@ h2{
     font-size: 2pc;
 }
 
+#tituloUnidadeCurricular{
+  color: #ffff;
+  
+}
+
 a{
     text-decoration: none;
 }
@@ -72,6 +77,8 @@ a{
    text-align: center;
    margin-top: 200px;
 }
+
+
 
 
 
