@@ -1,0 +1,194 @@
+
+body{
+    background-color: rgba(11, 27, 42, 1);
+}
+
+h2{
+    color: #ffff;
+    font-size: 2pc;
+}
+
+a{
+    text-decoration: none;
+}
+
+#cabecalho{
+    background-color: #1C537D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+  
+}
+
+.logo-wrapper img{
+    width: 30%;
+    margin-right: 10px;
+}
+
+.menu-wrapper {
+    display: flex;
+}
+
+.menu-wrapper h2{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+#imagemLogo{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 3pc;
+}
+
+
+#titulo {
+    color: #0869A6;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    position: relative; 
+    font-size: 3pc;
+}
+
+#titulo::before {
+    content: '';
+    position: absolute; 
+    top: 50%; 
+    left: 0;
+    right: 0;
+    height: 2px; 
+    background-color: #66B3FF; 
+    transform: translateY(-50%); 
+}
+
+#imagemCentro{
+   text-align: center;
+   margin-top: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.circulo {
+    width: 200px;
+    height: 200px;
+    margin: 0 66px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:  0px 0px 0px 5px #FFFF;
+  }
+  
+ 
+  
+  .circulo img {
+    width: 100%;
+    height: 100%;
+    
+  }
+  
+  
+  
+  .circulo-container {
+    margin: 10px;
+    text-decoration: none;
+    color: inherit;
+    flex: 0 0 auto; /* Adicionado para evitar que os círculos se estendam demais */
+}
+  
+.circulo-container {
+  width: 200px; /* Definindo a largura fixa dos círculos */
+  margin: 10px;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  display: flex; /* Adicionando display flex para alinhar itens verticalmente */
+  flex-direction: column; /* Colocando os itens um embaixo do outro */
+  align-items: center; /* Centralizando os itens horizontalmente */
+}
+
+h4{
+  margin-left: 10px; 
+  overflow: hidden; 
+  word-wrap: break-word; 
+  margin-top: 5px;
+  color: #FFFF;
+  font-weight: lighter;
+  font-size: 2pc;
+}
+
+.circulo-container h1{
+  color: #FFFF;
+  margin-top: 22px;
+  font-weight: bold;
+}
+
+ .circulo-container p {
+  margin-left: 10px;
+  overflow: hidden; 
+  word-wrap: break-word; 
+  margin-top: 2px; 
+  color: #FFFF;
+  font-size: 20px;
+}
+
+
+#titulo_time{
+  color: #FFFF;
+  text-align: center;
+  margin-top: 200px;
+}
+
+
+ .lado-esquerdo, .lado-direito {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; 
+  flex-wrap: wrap; 
+}
+
+  
+  #logo_emblema{
+    float: right;
+  }
