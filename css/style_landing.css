@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Flow+Circular&family=Micro+5&family=Namdhinggo:wght@400;500;600;700;800&family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Flow+Circular&family=Micro+5&family=Namdhinggo:wght@400;500;600;700;800&family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Flow+Circular&family=Kode+Mono:wght@400..700&family=Micro+5&family=Namdhinggo:wght@400;500;600;700;800&family=Share+Tech+Mono&display=swap');
 
 *{
 
@@ -16,7 +19,12 @@ h2{
 }
 
 #tituloUnidadeCurricular{
-  color: #ffff;
+  color: black;
+  font-family: "Comic Neue", cursive;
+  font-weight: 500;
+  font-style: normal;
+  padding: 50px;
+
   
 }
 
@@ -45,11 +53,18 @@ a{
 
 .menu-wrapper {
     display: flex;
+    align-items: center;
 }
 
 .menu-wrapper h2{
     margin-right: 20px;
     cursor: pointer;
+}
+
+#imagemTitulo{
+
+  margin-left: 50px;
+
 }
 
 
@@ -67,6 +82,9 @@ a{
     margin-bottom: 200px;
     position: relative; 
     font-size: 3pc;
+    font-family: "Share Tech Mono", monospace;
+    font-weight: 100;
+    font-style: normal;
 }
 
 #titulo::before {
@@ -75,8 +93,8 @@ a{
     top: 50%; 
     left: 0;
     right: 0;
-    height: 2px; 
-    background-color: #66B3FF; 
+    height: 1px; 
+    background-color: #1C537D; 
     transform: translateY(-50%); 
 }
 
@@ -85,6 +103,15 @@ a{
    margin-top: 200px;
 }
 
+#link{
+
+  padding: 20px;
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+}
 
 
 
@@ -173,7 +200,7 @@ h4{
 }
 
 .circulo-container h1{
-  color: #FFFF;
+  color: black;
   margin-top: 22px;
   font-weight: bold;
 }
@@ -183,13 +210,13 @@ h4{
   overflow: hidden; 
   word-wrap: break-word; 
   margin-top: 2px; 
-  color: #FFFF;
+  color: black;
   font-size: 20px;
 }
 
 
 #titulo_time{
-  color: #FFFF;
+  color: black;
   text-align: center;
   margin-top: 200px;
 }
