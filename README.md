@@ -9,12 +9,9 @@
 Problema: Facilitar a forma avaliativa do MSEP.
 </p>
 
-<p align="center">
-Área: Eletroeletrônica
-</p>
 
 <p - align="center">
-  <a href="https://github.com/adancard/TCC-SENAI/files/14166409/Documentacao.-.V1.ApexCode.pdf">Documentação ApexCode</a>
+  <a href="https://github.com/adancard/TCC-SENAI/files/14166409/Documentacao.-.V1.ApexCode.pdf">Documentação Quantum Logic</a>
 </p>
 
 <h1>1. Escopo</h1>
