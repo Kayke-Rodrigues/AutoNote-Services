@@ -1,7 +1,8 @@
 <h1>Responsáveis: Kayke, Ana, Ricardo, Pablo, Adan e Felipe.</h1>
 
 <p align="center">
-  <img width="30%" src="https://github.com/adancard/TCC-SENAI/assets/125130778/477b5054-fc88-42ba-887c-2de091e9030f" alt="Sublime's custom image"/>
+  <img width="30%" src="![image](https://github.com/Kayke-Rodrigues/AutoNote-Services/assets/125130778/faa8cfcb-d6bc-43c1-91d4-194da16f32f0)
+" alt="Sublime's custom image"/>
 </p>
 
 <p align="center">
