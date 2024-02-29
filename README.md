@@ -16,7 +16,7 @@ Problema: Facilitar a forma avaliativa do MSEP.
 
 <h1>1. Escopo</h1>
    
-Desenvolver um site responsivo que permita aos professores avaliar a capacidade dos alunos em diversas competências, 
+Desenvolver um site responsivo e padronizado que permita aos professores avaliar a capacidade dos alunos em diversas competências, 
 sendo avaliação de capacidade a serem definidas, avaliação somativa, dentre outras avaliações a ser elaboradas. 
 Fornecendo uma plataforma centralizada para gerenciar, registrar e analisar o desempenho de cada aluno ao longo do
 tempo necessário.
