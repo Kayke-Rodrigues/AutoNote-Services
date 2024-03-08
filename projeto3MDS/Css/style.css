@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Share Tech Mono", monospace;
+}
+
+@font-face {
+    font-family: "Share Tech Mono", monospace;
+    src: url(https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap);
+}
+
+body {
+    background-image: url('../IMGS/ImgBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 700px;
+}
+
+#HeaderLogo {
+    background-color: #1C678C;
+}
+
+#DivImagem {
+    display: flex;
+    width: 65%;
+    height: 20%;
+}
+
+#LogoSenaiHeader {
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+    margin-left: 120px;
+    width: 12%;
+    height: 12%;
+}
+
+
+/*section web*/
+
+#CorpoSection {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#DivLogo {
+    background-color: #1C678C;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 27%;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    flex-wrap: wrap;
+    font-size: 30px;
+}
+
+#DivLogo #titulo {
+    font-size: 70px;
+}
+
+
+#LoginDiv {
+    background-color: #F8F4F4;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 27%;
+    margin: 150px;
+    margin-right: 0px;
+    margin-left: 0px;
+    flex-wrap: wrap;
+}
+
+
+/* Inputs */
+
+#usuarioInput {
+    background-color: #D9D9D9;
+    margin: 20px 0px;
+    height: 25px;
+    width: 50%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 1s;
+}
+
+#usuarioInput:hover {
+    transform: translateZ(3px) scale(1.1)
+}
+
+input::placeholder {
+    color: black;
+}
+
+#senhaInput {
+    background-color: #D9D9D9;
+    height: 25px;
+    width: 50%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 1s;
+}
+
+#senhaInput:hover {
+    transform: translateZ(3px) scale(1.1)
+}
+
+
+
+/* texto de Login  */
+
+#LoginTexto {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+
+/* Botão de entrar */
+
+#btnEntrar {
+    background-color: #1C678C;
+    border-radius: 10px;
+    height: 30px;
+    width: 60%;
+    margin-bottom: 10px;
+    transition: 1s;
+}
+
+#btnEntrar:hover {
+    background-color: #144b67;
+    transform: translateZ(10px) scale(1.1)
+}
+
+
+
+#LogoGrupo {
+    height: 150px;
+    width: 150px;
+    transition: 2s;
+}
+
+#LogoGrupo:hover {
+    transform: translateZ(50px) scale(1.2);
+}
+
+#esqueciSenha {
+    text-decoration: underline;
+    color: black;
+}
