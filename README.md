@@ -66,20 +66,11 @@ e que possa automatizar o trabalho do professor.
 
 <h1>3.Análise de Riscos</h1>
 
-● Falhas técnicas na integração do software: Devido o software planejado ser uma
-extensão já do site web do SENAI (https://www.sp.senai.br/), pode haver
-problemas de comunicação entre as linguagens de programação.
+● Bugs ou erros de conexões podem arruinar o funcionamento do aplicativo.
 
-● Queda de internet: O processo de automação precisa necessariamente de internet
-para ser iniciado, caso a aplicação tenha um cronograma é claro.
+● criação de capacidades avaliadas tem que ser ilimitadas, porém devem ser assim que possivel excluidas, para não ocupar tanta memoria.
 
-● Falha no banco de dados do servidor SENAI: O site for a do ar é um problema para
-a aplicação.
-
-● Falta de conhecimento sob a interface visual do site SENAI: Devido não termos o
-acesso necessário para planejar os comandos de automatização, a falta de
-conhecimento sob as camadas onde o professor tem acesso é relativamente um
-problema.
+● Falha no banco de dados do servidor SENAI: O site fora do ar é um problema para a organização e gerenciamento dos docentes.
 
 ● Treinamento: Apesar da aplicação ser bem simples, o docente precisa ter o devido
 treinamento para o funcionamento da automatização.
