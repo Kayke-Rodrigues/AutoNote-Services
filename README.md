@@ -1,8 +1,8 @@
 <h1>Responsáveis: Kayke, Ana, Ricardo, Pablo, Adan e Felipe.</h1>
 
 <p align="center">
-  <img width="30%" src=https://github.com/Kayke-Rodrigues/AutoNote-Services/assets/125130778/7728ac5d-6ea1-4a8e-855d-441c7d7b0a7f
-" alt="Sublime's custom image"/>
+  <img width="30%" src=https://github.com/Kayke-Rodrigues/AutoNote-Services/assets/125130778/a4ff369a-ec55-499b-b11f-195bca12e323
+ alt="Sublime's custom image"/>
 </p>
 
 <p align="center">
