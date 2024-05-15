@@ -3,7 +3,6 @@ import { ScrollView, StyleSheet, Switch, Text, TextInput, TouchableOpacity, View
 import { Picker } from '@react-native-picker/picker';
 
 export default function App() {
-  // Declaração de estados
   const [textCompetencia, setTextCompetencia] = useState('');
   const [escolhaBotao, setEscolhaBotao] = useState('');
   const [textCriticidade, setTextCriticidade] = useState('');
@@ -11,8 +10,8 @@ export default function App() {
   const [criterios, setCriterios] = useState([]);
   const [competencias, setCompetencias] = useState([]);
   const [criteriosDaCompetencia, setCriteriosDaCompetencia] = useState([]);
+  const [selectedCompetenciaId, setSelectedCompetenciaId] = useState(null);
 
-  // Função para buscar competências e critérios ao carregar o componente
   useEffect(() => {
     const fetchCompetencias = async () => {
       try {
@@ -38,10 +37,9 @@ export default function App() {
     fetchCriterios();
   }, []);
 
-  // Função para carregar critérios de uma competência específica
   const carregarCriteriosDaCompetencia = async (competenciaId) => {
     try {
-      const response = await fetch(`http://localhost:8080/consulta_Competencia/${competenciaId}`);
+      const response = await fetch(`http://localhost:8080/Competencia/consulta_Competencia/${competenciaId}`);
       const data = await response.json();
       setCriteriosDaCompetencia(data);
     } catch (error) {
@@ -49,8 +47,7 @@ export default function App() {
     }
   };
 
-  // Função para confirmar e enviar dados das competências e critérios
-  const onPressConfirmar = async () => {
+  const onPressConfirmarCompetencia = async () => {
     try {
       const responseCompetencia = await fetch('http://localhost:8080/Competencia/CriarCompetencia', {
         method: 'POST',
@@ -60,14 +57,23 @@ export default function App() {
 
       if (!responseCompetencia.ok) {
         console.error('Falha ao enviar os dados da competência.');
+      } else {
+        console.log('Competência criada com sucesso!');
       }
 
+    } catch (error) {
+      console.error('Erro ao enviar os dados:', error);
+    }
+  };
+
+  const onPressConfirmarCriticidade = async () => {
+    try {
       const tipoCriticidade = isEnable ? 'critica' : 'desejada';
 
       const responseCriterio = await fetch('http://localhost:8080/Criterios/CriarCriterio', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ nome: textCriticidade, tipoCriticidades: tipoCriticidade }),
+        body: JSON.stringify({ nome: textCriticidade, tipoCriticidades: tipoCriticidade, id_competencia: selectedCompetenciaId }),
       });
 
       if (!responseCriterio.ok) {
@@ -98,21 +104,26 @@ export default function App() {
         onChangeText={setTextCompetencia}
         placeholder="Digite a Competência"
       />
+
+      <TouchableOpacity style={styles.confirmar} onPress={onPressConfirmarCompetencia}>
+        <Text style={styles.buttonConfirmar}>Confirmar</Text>
+      </TouchableOpacity>
+
       <Text style={styles.tituloCriticidade}>Adicionar Critério</Text>
       <Text style={styles.texto}>Selecione uma competência:</Text>
       <Picker
-        selectedValue={textCompetencia}
+        selectedValue={selectedCompetenciaId}
         style={styles.picker}
         onValueChange={(itemValue) => {
-          setTextCompetencia(itemValue);
+          setSelectedCompetenciaId(itemValue);
           carregarCriteriosDaCompetencia(itemValue);
         }}
       >
         {competencias.map((competencia) => (
           <Picker.Item
-            key={competencia.id_competencia}
+            key={competencia.id}
             label={competencia.nome}
-            value={competencia.id_competencia}
+            value={competencia.id}
           />
         ))}
       </Picker>
@@ -132,7 +143,7 @@ export default function App() {
         />
         <Text style={styles.textoSelecao}>Crítico</Text>
       </View>
-      <TouchableOpacity style={styles.confirmar} onPress={onPressConfirmar}>
+      <TouchableOpacity style={styles.confirmar} onPress={onPressConfirmarCriticidade}>
         <Text style={styles.buttonConfirmar}>Confirmar</Text>
       </TouchableOpacity>
     </ScrollView>
