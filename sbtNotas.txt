@@ -10,7 +10,7 @@ export default function App() {
   const [criterios, setCriterios] = useState([]);
   const [competencias, setCompetencias] = useState([]);
   const [criteriosDaCompetencia, setCriteriosDaCompetencia] = useState([]);
-  const [selectedCompetenciaId, setSelectedCompetenciaId] = useState(null);
+  const [selectedCompetenciaNome, setSelectedCompetenciaNome] = useState(null);
 
   useEffect(() => {
     const fetchCompetencias = async () => {
@@ -39,6 +39,7 @@ export default function App() {
 
   const carregarCriteriosDaCompetencia = async (competenciaId) => {
     try {
+      console.log(escolhaBotao)
       const response = await fetch(`http://localhost:8080/Competencia/consulta_Competencia/${competenciaId}`);
       const data = await response.json();
       setCriteriosDaCompetencia(data);
@@ -68,16 +69,15 @@ export default function App() {
 
   const onPressConfirmarCriticidade = async () => {
     try {
-      const tipoCriticidade = isEnable ? 'critica' : 'desejada';
-
       const responseCriterio = await fetch('http://localhost:8080/Criterios/CriarCriterio', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ nome: textCriticidade, tipoCriticidades: tipoCriticidade, id_competencia: selectedCompetenciaId }),
+        body: JSON.stringify({ nome: textCriticidade, tipo: escolhaBotao, id_competencia: selectedCompetenciaNome }),
       });
 
       if (!responseCriterio.ok) {
         console.error('Falha ao enviar os dados do critério.');
+        alert("Não foi Criado")
       }
     } catch (error) {
       console.error('Erro ao enviar os dados:', error);
@@ -112,18 +112,19 @@ export default function App() {
       <Text style={styles.tituloCriticidade}>Adicionar Critério</Text>
       <Text style={styles.texto}>Selecione uma competência:</Text>
       <Picker
-        selectedValue={selectedCompetenciaId}
+        selectedValue={selectedCompetenciaNome}
         style={styles.picker}
-        onValueChange={(itemValue) => {
-          setSelectedCompetenciaId(itemValue);
+        onValueChange={(itemValue, itemIndex) => {
+          setSelectedCompetenciaNome(itemValue); // Altere o estado para o nome da competência
           carregarCriteriosDaCompetencia(itemValue);
+          setTextCompetencia(itemValue); // Defina o nome da competência no estado
         }}
       >
-        {competencias.map((competencia) => (
+        {Array.isArray(competencias) && competencias.map((competencia) => (
           <Picker.Item
-            key={competencia.id}
+            key={competencia.nome}
             label={competencia.nome}
-            value={competencia.id}
+            value={competencia.nome} // Use o nome da competência como valor
           />
         ))}
       </Picker>
@@ -133,15 +134,13 @@ export default function App() {
         onChangeText={setTextCriticidade}
         placeholder="Digite o Critério"
       />
-      <View style={styles.caixaSelecao}>
-        <Text style={styles.textoSelecao}>Desejável</Text>
-        <Switch
-          trackColor={{ false: 'green', true: 'red' }}
-          onValueChange={() => setIsEnable(!isEnable)}
-          value={isEnable}
-          style={styles.criticoEdesejavel}
-        />
-        <Text style={styles.textoSelecao}>Crítico</Text>
+      <View style={styles.Containersbt}>
+        <TouchableOpacity style={styles.botaoDC} onPress={() => setEscolhaBotao('critica')}>
+          <Text style={styles.textoButton}>Desejavel</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.botao} onPress={() => setEscolhaBotao('desejada')}>
+          <Text style={styles.textoButton}>Critico</Text>
+        </TouchableOpacity>
       </View>
       <TouchableOpacity style={styles.confirmar} onPress={onPressConfirmarCriticidade}>
         <Text style={styles.buttonConfirmar}>Confirmar</Text>
@@ -212,4 +211,16 @@ const styles = StyleSheet.create({
   },
   texto: { textAlign: 'center', marginTop: 30 },
   criticoEdesejavel: { marginHorizontal: 10 },
+  botaoDC: {
+
+    borderColor: 'black',
+    borderWidth: 1,
+    width: 70,
+    height: 50,
+    borderRadius: 25,
+    justifyContent: 'center',
+    alignItems: 'center',
+    margin: 20,
+
+  }
 });
